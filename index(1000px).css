@@ -1,0 +1,18 @@
+.profile{
+    flex-flow:column;
+}
+.profile > div:nth-child(1){
+    position:relative;
+    top:-40px;
+    left:25%;
+}
+.profile > div:nth-child(2){
+    position:relative;
+    top:-120px;
+    left:25%;
+}
+
+
+
+
+
