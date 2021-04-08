@@ -33,11 +33,6 @@ html{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight:800;
 }
-#opening{
-    background:rgba(174,177,224,1);
-    width:100%;
-    height:100vh;
-}
 #home{
     background:rgba(174,177,224,1);
     width:100%;
@@ -46,7 +41,7 @@ html{
 #about{
     background:rgba(198, 205, 221, 1);
     width:100%;
-    height:110vh;
+    height:100vh;
 }
 #skill{
     background:rgba(55, 65, 75, 1);
@@ -218,13 +213,13 @@ nav{
 .profile{
     width:80%;
     height:600px;
-    margin:0 auto;
+    margin:30px auto;
     display:flex;
 }
 .profile > div:nth-child(1) ,
 .profile > div:nth-child(2){
     width:50%;
-    margin:40px 0;
+    margin:50px 0;  
 }
 .face_img{
     width:200px;
