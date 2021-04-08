@@ -26,3 +26,23 @@
 }
 
 /* -------------- skill -------------- */
+
+#portfolio{
+    height:140vh;
+}
+.sub_portfolio{
+    flex-flow:column;
+}
+.sub_portfolio > .left{
+    position:relative;
+    left:10%;
+}
+.sub_portfolio > .left > img{
+    width:300px;
+}
+.sub_portfolio > .right{
+    position:relative;
+    left:10%;
+}
+
+
