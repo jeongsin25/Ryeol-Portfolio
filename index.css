@@ -206,9 +206,13 @@ nav{
 /* -------------- about me -------------- */
 .about_main{
     color:rgb(0,0,0,1);
+    position:relative;
+    top:30px;
     font-size:50px;
     text-align:center;
     padding:40px;
+    opacity:0;
+    transition:opacity 1.5s , top 1.2s;
 }
 .profile{
     width:80%;
@@ -230,6 +234,8 @@ nav{
 }
 .face_img > img{
     width:100%;
+    opacity:0;
+    transition:opacity 1.5s;
 }
 
 
@@ -243,6 +249,10 @@ nav{
 .list_total > h1{
     margin:0 0 15px 0;
     font-size:40px;
+    opacity:0;
+    position:relative;
+    top:-30px;
+    transition:opacity 1.2s 0.5s , top 1.2s 0.5s;
 }
 .list_total > p{
     margin:0 0 8px 0;
@@ -250,6 +260,10 @@ nav{
 .list_total > p > b ,
 .list_total > p > span{
     font-size:16px;
+    opacity:0;
+    position:relative;
+    left:-30px;
+    transition:opacity 1.2s 0.5s , left 1.2s 0.5s;
 }
 .list_total > p > b{
     display:inline-block;
@@ -270,6 +284,10 @@ nav{
     text-align:center;
     padding:40px;
     background:rgba(55, 65, 75, 1);
+    position: relative;
+    top:30px;
+    opacity:0;
+    transition:opacity 1.5s , top 1.2s;
 }
 .sub_skill{
     width:100%;
@@ -290,6 +308,10 @@ nav{
     width:250px;
     height:250px;
     margin:0 0 50px 0;
+    position: relative;
+    top:30px;
+    opacity:0;
+    transition:opacity 1.5s 0.2s, top 1.2s 0.2s;
 }
 .skill_list > li > img{
     display:block;
