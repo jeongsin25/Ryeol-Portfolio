@@ -9,21 +9,21 @@ $('.submenu li:nth-child(1)').on('click' , function(){
     $(this).css('background' , 'rgba(247, 201, 76, 1)')
 })
 $('.submenu li:nth-child(2)').on('click' , function(){
-    window.scroll(0,752);
+    window.scroll(0,937);
     if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
         $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
     }
     $(this).css('background' , 'rgba(247, 201, 76, 1)')
 })
 $('.submenu li:nth-child(3)').on('click' , function(){
-    window.scroll(0,1578);
+    window.scroll(0,1968);
     if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
         $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
     }
     $(this).css('background' , 'rgba(247, 201, 76, 1)')
 })
 $('.submenu li:nth-child(4)').on('click' , function(){
-    window.scroll(0,2477);
+    window.scroll(0,3094);
     if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
         $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
     }
@@ -32,25 +32,25 @@ $('.submenu li:nth-child(4)').on('click' , function(){
 
 // 스크롤했을때 버튼 변화
 $(window).on('scroll' , function(){
-    if(window.scrollY < 752){
+    if(window.scrollY < 937){
         if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
             $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
         }
         $('.submenu li:nth-child(1)').css('background' , 'rgba(247, 201, 76, 1)');
     }
-    else if(window.scrollY < 1577){
+    else if(window.scrollY < 1968){
         if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
             $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
         }
         $('.submenu li:nth-child(2)').css('background' , 'rgba(247, 201, 76, 1)');
     }
-    else if(window.scrollY < 2475){
+    else if(window.scrollY < 3094){
         if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
             $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
         }
         $('.submenu li:nth-child(3)').css('background' , 'rgba(247, 201, 76, 1)');
     }
-    else if(window.scrollY > 2476){
+    else if(window.scrollY > 3094){
         if($('.submenu li').css('background' , 'rgba(247, 201, 76, 1)')){
             $('.submenu li').css('background' , 'rgba(104, 104, 104, 1)');
         }
