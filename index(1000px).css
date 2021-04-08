@@ -19,7 +19,7 @@
 
 /* -------------- skill -------------- */
 #skill{
-    height:280vh;
+    height:310vh;
 }
 .skill_list{
     flex-flow:row wrap;
