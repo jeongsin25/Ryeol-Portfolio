@@ -24,6 +24,7 @@ time, mark, audio, video {
 }
 body{
     overflow-x: hidden;
+    overflow-y: auto;
 }
 a{
     text-decoration:none;
