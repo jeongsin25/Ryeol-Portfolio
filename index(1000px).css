@@ -1,3 +1,8 @@
+
+/* -------------- about me -------------- */
+#about{
+    height:150vh;
+}
 .profile{
     flex-flow:column;
 }
@@ -12,7 +17,12 @@
     left:25%;
 }
 
+/* -------------- skill -------------- */
+#skill{
+    height:280vh;
+}
+.skill_list{
+    flex-flow:row wrap;
+}
 
-
-
-
+/* -------------- skill -------------- */
