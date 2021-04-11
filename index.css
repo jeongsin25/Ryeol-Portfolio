@@ -225,7 +225,7 @@ nav{
     margin:50px 0;  
 }
 .face_img{
-    width:200px;
+    width:250px;
     position:relative;
     left:50%;
     top:50%;
@@ -373,13 +373,13 @@ nav{
 }
 .right > h3{
     font-size:28px;
-    font-weight:500;
-    margin:0 0 10px;
+    font-weight:600;
+    margin:0 0 15px;
 }
 .right > ul > li{
     font-size:18px;
     font-weight:300;
-    list-style:circle;
+    list-style:disc;
 }
 .button{
     margin:60px 45px;
