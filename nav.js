@@ -78,8 +78,10 @@ $(window).on('scroll' , function(){
 // 마우스 올렸을때
 $('.submenu > li > div').hover(function(){
     $(this).css('cursor' , 'pointer').css('background' , 'rgba(247, 201, 76, 1)');
+    $(this.parentElement.lastElementChild).css('display' , 'block');
 },function(){
     $(this).css('background' , 'rgba(104, 104, 104, 1)')
+    $(this.parentElement.lastElementChild).css('display' , 'none');
     if($(this).css('width') === "12px"){
         $(this).css('background' , 'rgba(247, 201, 76, 1)');
     }
