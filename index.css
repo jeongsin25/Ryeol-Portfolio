@@ -40,12 +40,12 @@ html{
     height:100vh;
 }
 #about{
-    background:rgba(198, 205, 221, 1);
+    background:rgba(245,245,245,1);
     width:100%;
     height:800px;
 }
 #skill{
-    background:rgba(55, 65, 75, 1);
+    background:rgba(174,216,255,1);
     width:100%;
     height:850px;
 }
@@ -293,6 +293,7 @@ nav{
 .list_total > h1{
     margin:0 0 15px 0;
     font-size:40px;
+    font-weight:500;
     opacity:0;
     position:relative;
     top:-30px;
@@ -323,11 +324,10 @@ nav{
 
 /* -------------- My skill -------------- */
 .skill_main{
-    color:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
     font-size:50px;
     text-align:center;
     padding:40px;
-    background:rgba(55, 65, 75, 1);
     position: relative;
     top:30px;
     opacity:0;
@@ -336,7 +336,6 @@ nav{
 .sub_skill{
     width:100%;
     height:700px;
-    background:rgba(55, 65, 75, 1);
 }
 .skill_list{
     font-family: 'Noto Sans KR', sans-serif;
@@ -368,12 +367,12 @@ nav{
 .skill_list > li > h1{
     font-size:32px;
     font-weight:700;
-    color:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
     text-align:center;
     margin:0 0 10px 0;
 }
 .skill_list > li > p{
-    color:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
     font-size:15px;
     text-align: center;
 }
