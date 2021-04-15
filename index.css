@@ -45,7 +45,7 @@ html{
     height:800px;
 }
 #skill{
-    background:rgba(80,80,80,1);
+    background:rgba(60,60,60,1);
     width:100%;
     height:850px;
 }
@@ -141,13 +141,26 @@ nav{
     font-family: 'Noto Sans KR', sans-serif;
     color:rgba(255,255,255,1);
     font-size:80px;
-    font-weight:500;
+    font-weight:400;
     text-align:center;
     position:relative;
     opacity:0;
     transition:opacity 2s , top 1.5s;
     left:50%;
-    top:40%;
+    top:53%;
+    transform:translate(-50%, -50%);
+}
+.home_sub{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:rgba(255,255,255,1);
+    font-size:24px;
+    font-weight:500;
+    text-align:center;
+    position:relative;
+    /* opacity:0; */
+    transition:opacity 2s , top 1.5s;
+    left:50%;
+    top:35%;
     transform:translate(-50%, -50%);
 }
 
@@ -193,7 +206,7 @@ nav{
     border-radius:5px;
     position:relative;
     left:50%;
-    top:47%;
+    top:55%;
     opacity:0;
     transition:opacity 1s;
     transform:translate(-50%, -50%);
@@ -270,10 +283,10 @@ nav{
     margin:50px 0;  
 }
 .face_img{
-    width:250px;
+    width:300px;
     position:relative;
     left:50%;
-    top:50%;
+    top:43%;
     transform:translate(-50%, -50%);
 }
 .face_img > img{
@@ -445,6 +458,23 @@ nav{
     height:50px;
     line-height:50px;
     box-sizing:border-box;
+}
+
+
+
+/* -------------- button_top-------------- */
+
+#top_button{
+    display:none;
+    position:fixed;
+    right:50px;
+    bottom:50px;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    cursor:pointer;
+    background:url(이미지/top_button.svg);
+    box-shadow:0px 5px 5px rgba(50,50,50,1);
 }
 
 

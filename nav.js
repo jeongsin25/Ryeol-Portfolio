@@ -10,28 +10,28 @@ $('.submenu li:nth-child(1) div').on('click' , function(){
     if($('.submenu li div').css('background' , 'rgba(245,213,85,1)')){
         $('.submenu li div').css('background' , 'rgba(104, 104, 104, 1)');
     }
-    $(this).css('background' , 'rgba(245,213,85,1)')
+    $(this).css('background' , 'rgba(245,213,85,1)');
 })
 $('.submenu li:nth-child(2) div').on('click' , function(){
     window.scroll(0,window.innerHeight);
     if($('.submenu li div').css('background' , 'rgba(245,213,85,1)')){
         $('.submenu li div').css('background' , 'rgba(104, 104, 104, 1)');
     }
-    $(this).css('background' , 'rgba(245,213,85,1)')
+    $(this).css('background' , 'rgba(245,213,85,1)');
 })
 $('.submenu li:nth-child(3) div').on('click' , function(){
     window.scroll(0,window.innerHeight + about.getBoundingClientRect().height);
     if($('.submenu li div').css('background' , 'rgba(245,213,85,1)')){
         $('.submenu li div').css('background' , 'rgba(104, 104, 104, 1)');
     }
-    $(this).css('background' , 'rgba(245,213,85,1)')
+    $(this).css('background' , 'rgba(245,213,85,1)');
 })
 $('.submenu li:nth-child(4) div').on('click' , function(){
     window.scroll(0,window.innerHeight + about.getBoundingClientRect().height + skill.getBoundingClientRect().height);
     if($('.submenu li div').css('background' , 'rgba(245,213,85,1)')){
         $('.submenu li div').css('background' , 'rgba(104, 104, 104, 1)');
     }
-    $(this).css('background' , 'rgba(245,213,85,1)')
+    $(this).css('background' , 'rgba(245,213,85,1)');
 })
 
 // 스크롤했을때 버튼 변화
@@ -77,8 +77,14 @@ $(window).on('scroll' , function(){
 
 // 마우스 올렸을때
 $('.submenu > li > div').hover(function(){
-    $(this).css('cursor' , 'pointer').css('background' , 'rgba(245,213,85,1)');
-    $(this.parentElement.lastElementChild).fadeIn();
+    if((window.scrollY < window.innerHeight/2) || (window.scrollY > window.innerHeight/2 + about.getBoundingClientRect().height && window.scrollY < window.innerHeight/2 + about.getBoundingClientRect().height + skill.getBoundingClientRect().height)){
+        $(this).css('cursor' , 'pointer').css('background' , 'rgba(245,213,85,1)');
+        $(this.parentElement.lastElementChild).fadeIn().css('color' , 'rgba(255,255,255,1)');
+    }
+    else{
+        $(this).css('cursor' , 'pointer').css('background' , 'rgba(245,213,85,1)');
+        $(this.parentElement.lastElementChild).fadeIn().css('color' , 'rgba(80,80,80,1)');
+    }
 },function(){
     $(this).css('background' , 'rgba(104, 104, 104, 1)')
     $(this.parentElement.lastElementChild).css('display' , 'none');
