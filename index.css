@@ -404,7 +404,9 @@ nav{
     /* background:rgba(255,255,255,1); */
 }
 
-
+.portfolio_box{
+    display:flex;
+}
 .sub_portfolio{
     font-family: 'Noto Sans KR', sans-serif;
     display:flex;
