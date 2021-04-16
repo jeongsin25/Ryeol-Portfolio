@@ -7,11 +7,15 @@
 .skill_right{
     width:80%;
 }
+.skill_left > ul > li ,
+.skill_right > ul > li{
+    margin:50px 20px;
+}
 .skill_left > ul > li:nth-child(4){
-    margin:50px 100px 25px 20px;
+    margin:50px 20px 25px 20px;
 }
 .skill_right > ul > li:nth-child(1){
-    margin:25px 100px 50px 20px;
+    margin:25px 20px 50px 20px;
 }
 
 
