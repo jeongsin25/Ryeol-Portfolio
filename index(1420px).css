@@ -1,0 +1,27 @@
+/* -------------- portfolio -------------- */
+.sub_portfolio{
+    flex-flow:column;
+}
+
+.left > img{
+    width:70%;
+}
+.right{
+    margin:0px 100px;
+}
+.right > h1 ,
+.right > h3 ,
+.right > ul > li{
+    text-align:center;
+    list-style:none;
+}
+.button{
+    display:flex;
+    justify-content:center;
+}
+
+
+
+
+
+

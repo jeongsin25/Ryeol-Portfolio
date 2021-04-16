@@ -42,17 +42,17 @@ html{
 #about{
     background:rgba(245,245,245,1);
     width:100%;
-    height:800px;
+    /* height:800px; */
 }
 #skill{
     background:rgba(60,60,60,1);
     width:100%;
-    height:850px;
+    /* height:850px; */
 }
 #portfolio  {
     background:rgba(240,240,240,1);
     width:100%;
-    height:800px;
+    /* height:800px; */
 }
 
 
@@ -273,7 +273,6 @@ nav{
 }
 .profile{
     width:80%;
-    height:600px;
     margin:0 auto;
     display:flex;
 }
@@ -489,51 +488,6 @@ nav{
 
 
 
-.skill_list{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight:400;
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content: center;
-}
-.skill_list:nth-child(1){
-    padding:40px 0 0 0;
-}
-.skill_list > li{
-    width:250px;
-    height:250px;
-    margin:0 50px 50px 50px;
-    position: relative;
-    top:30px;
-    opacity:0;
-    transition:opacity 1.5s 0.2s, top 1.2s 0.2s;
-}
-.skill_list > li > img{
-    display:block;
-    margin:5px auto;
-    width:35%;
-}
-.skill_list > li > img:nth-child(4){
-    margin:50px auto;
-}
-.skill_list > li > h1{
-    font-size:32px;
-    font-weight:700;
-    color:rgba(255,255,255,1);
-    text-align:center;
-    margin:0 0 10px 0;
-}
-.skill_list > li > p{
-    color:rgba(255,255,255,1);
-    font-size:15px;
-    text-align: center;
-}
-
-
-
-
-
-
 /* -------------- Portfolio -------------- */
 .portfolio_main{
     color:rgba(0,0,0,1);
@@ -545,11 +499,12 @@ nav{
 
 .portfolio_box{
     display:flex;
+    justify-content:center;
 }
 .sub_portfolio{
     font-family: 'Noto Sans KR', sans-serif;
     display:flex;
-    justify-content: flex-end;
+    justify-content:center;
 }
 .left{
     width:700px;

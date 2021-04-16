@@ -1,0 +1,27 @@
+/* -------------- About Me -------------- */
+.profile{
+    flex-flow:column;
+    align-items:center;
+}
+.face_img{
+    text-align:center;
+    margin:0 auto;
+    left:0;
+    top:0;
+    transform:translate(0%, 0%);
+    width:100%;
+}
+.face_img > img{
+    width:70%;
+}
+.profile > div:nth-child(1){
+    margin:10px 0 0 0;
+    text-align: center;
+}
+.profile > div:nth-child(2){
+    margin:0 0 50px 0;
+    text-align: center;
+}
+.list_total > p > b{
+    display:none;
+}

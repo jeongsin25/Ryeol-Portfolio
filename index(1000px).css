@@ -1,48 +1,25 @@
-
-/* -------------- about me -------------- */
-#about{
-    height:150vh;
-}
-.profile{
+/* -------------- My skill -------------- */
+.sub_skill{
     flex-flow:column;
+    align-items:center;
 }
-.profile > div:nth-child(1){
-    position:relative;
-    top:-40px;
-    left:25%;
+.skill_left ,
+.skill_right{
+    width:80%;
 }
-.profile > div:nth-child(2){
-    position:relative;
-    top:-120px;
-    left:25%;
+.skill_left > ul > li:nth-child(4){
+    margin:50px 100px 25px 20px;
 }
-
-/* -------------- skill -------------- */
-#skill{
-    height:1500px;
-}
-.skill_list{
-    flex-flow:row wrap;
+.skill_right > ul > li:nth-child(1){
+    margin:25px 100px 50px 20px;
 }
 
-/* -------------- skill -------------- */
 
-#portfolio{
-    height:140vh;
-}
-.sub_portfolio{
-    flex-flow:column;
-}
-.sub_portfolio > .left{
-    position:relative;
-    left:10%;
-}
-.sub_portfolio > .left > img{
-    width:300px;
-}
-.sub_portfolio > .right{
-    position:relative;
-    left:10%;
-}
+
+
+
+
+
+
 
 
