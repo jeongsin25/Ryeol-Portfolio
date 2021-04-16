@@ -344,7 +344,7 @@ nav{
     position: relative;
     top:30px;
     opacity:0;
-    transition:opacity 1.5s , top 1.2s;
+    transition:opacity 1.5s , top 1s;
 }
 .sub_skill{
     width:100%;
@@ -362,7 +362,13 @@ nav{
     display:flex;
     margin:50px 100px 50px 20px;
 }
-
+.skill_img ,
+.skill_gauge{
+    position: relative;
+    opacity:0;
+    top:50px;
+    transition:all 1s 0.2s;
+}
 
 
 
@@ -396,34 +402,58 @@ nav{
 }
 .skill_gauge_1{
     width:90%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(220,74,30,1);
 }
 .skill_gauge_2{
     width:85%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(24,118,182,1);
 }
 .skill_gauge_3{
     width:70%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(248,200,53,1);
 }
 .skill_gauge_4{
     width:65%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(8,104,172,1);
 }
 .skill_gauge_5{
     width:85%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(44,164,204,1);
 }
 .skill_gauge_6{
     width:80%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(241,103,44,1);
 }
 .skill_gauge_7{
     width:90%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(114,49,208,1);
 }
 .skill_gauge_8{
     width:95%;
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform 1s 1.2s;
     background:rgba(187,49,208,1);
 }
 
@@ -436,13 +466,18 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-start;
+    opacity:0;
+    transition:opacity 1s 1.2s;
+}
+.skill_percent > div{
+    color:rgba(255,255,255,1);
+    font-size:28px;
+    margin:0 0 0 10px;
 }
 .skill_percent > span{
     color:rgba(255,255,255,1);
     font-size:28px;
-    margin:0 10px;
 }
-
 
 
 
@@ -514,7 +549,7 @@ nav{
 .sub_portfolio{
     font-family: 'Noto Sans KR', sans-serif;
     display:flex;
-    justify-content:center;
+    justify-content: flex-end;
 }
 .left{
     width:700px;
