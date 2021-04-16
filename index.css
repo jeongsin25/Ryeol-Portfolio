@@ -503,11 +503,12 @@ nav{
 }
 .sub_portfolio{
     font-family: 'Noto Sans KR', sans-serif;
+    width:100%;
     display:flex;
     justify-content:center;
 }
 .left{
-    width:700px;
+    /* width:700px; */
     margin:80px 100px;
 }
 .left > img{
@@ -516,7 +517,7 @@ nav{
     margin:0 auto;
 }
 .right{
-    width:700px;
+    /* width:700px; */
     margin:80px 30px;
 }
 .right > h1{
