@@ -1,3 +1,17 @@
+/* -------------- header -------------- */
+.menubox{
+    display:block;
+}
+.menubar{
+    display:block;
+}
+
+/* -------------- nav ----------------- */
+nav{
+    display:none;
+}
+
+
 /* -------------- About Me -------------- */
 .profile{
     flex-flow:column;
