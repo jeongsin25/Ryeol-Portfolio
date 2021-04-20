@@ -1,3 +1,28 @@
+/* -------------- about me -------------- */
+.face_img{
+    width:100%;
+}
+
+.profile > div:nth-child(1) ,
+.profile > div:nth-child(2){
+    width:300px;
+}
+.list_total{
+    width:100%;
+}
+
+
+
+/* -------------- my skill -------------- */
+.skill_left > ul > li ,
+.skill_right > ul > li{
+    flex-flow:column;
+}
+.skill_percent{
+    justify-content:center;
+}
+
+
 /* -------------- Portfolio -------------- */
 .left{
     margin:0;
@@ -5,7 +30,16 @@
 .left > img{
     width:250px;
 }
+.right > ul > li{
+    margin:0 0 10px 0;
+    font-size:16px;
+}
 
 
+/* -------------- button_top-------------- */
+#top_button{
+    right:20px;
+    bottom:20px;
+}
 
 
