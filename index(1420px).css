@@ -1,6 +1,9 @@
 /* -------------- portfolio -------------- */
+
+
 .sub_portfolio{
     flex-flow:column;
+    margin:0 0 100px 0;
 }
 
 .left > img{

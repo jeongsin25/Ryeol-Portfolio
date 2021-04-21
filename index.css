@@ -42,17 +42,15 @@ html{
 #about{
     background:rgba(245,245,245,1);
     width:100%;
-    /* height:800px; */
 }
 #skill{
     background:rgba(60,60,60,1);
     width:100%;
-    /* height:850px; */
 }
 #portfolio  {
     background:rgba(240,240,240,1);
     width:100%;
-    /* height:800px; */
+    padding:0 0 50px 0;
 }
 
 
@@ -650,7 +648,7 @@ nav{
     list-style:disc;
 }
 .button{
-    margin:60px 45px;
+    margin:60px 45px 0px;
 }
 .button > button{
     width:200px;
