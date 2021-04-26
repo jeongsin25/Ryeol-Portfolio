@@ -1,4 +1,7 @@
 /* -------------- header -------------- */
+header{
+    display:block;
+}
 .menubox{
     display:block;
 }

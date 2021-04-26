@@ -45,6 +45,21 @@
 }
 
 
+.make_day > h2{
+    display:block;
+}
+.make_day > h2:nth-child(1){
+    margin:40px 0 10px 0;
+}
+.make_day > h2:nth-child(2){
+    display:none;
+}
+.make_day > span{
+    margin:0px;
+}
+
+
+
 /* -------------- button_top-------------- */
 #top_button{
     right:20px;
