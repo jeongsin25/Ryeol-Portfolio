@@ -16,7 +16,8 @@
     margin:0 0 30px;
 }
 .right > h1 ,
-.make_day,
+.make_day ,
+.make_program ,
 .right > h3 ,
 .right > ul > li{
     text-align:center;

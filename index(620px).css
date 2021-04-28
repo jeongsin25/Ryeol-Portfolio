@@ -45,16 +45,20 @@
 }
 
 
-.make_day > h2{
+.make_day > h2 ,
+.make_program > h2{
     display:block;
 }
-.make_day > h2:nth-child(1){
+.make_day > h2:nth-child(1),
+.make_program > h2:nth-child(1){
     margin:40px 0 10px 0;
 }
-.make_day > h2:nth-child(2){
+.make_day > h2:nth-child(2),
+.make_program > h2:nth-child(2){
     display:none;
 }
-.make_day > span{
+.make_day > span,
+.make_program > span{
     margin:0px;
 }
 
