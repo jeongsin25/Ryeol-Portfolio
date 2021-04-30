@@ -596,7 +596,7 @@ nav{
     /* background:rgba(255,255,255,1); */
 }
 .portfolio_menu{
-    padding:20px 0 100px 0;
+    padding:20px 0 20px 0;
 }
 .portfolio_menu > ul{
     display:flex;

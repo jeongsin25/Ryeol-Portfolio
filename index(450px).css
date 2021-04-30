@@ -1,0 +1,15 @@
+/* -------------- portfolio -------------- */
+.portfolio_menu > ul{
+    flex-flow:row wrap;
+}
+.portfolio_menu > ul > li{
+    margin:10px 7px;
+}
+
+
+
+
+
+
+
+
